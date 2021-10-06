@@ -1,23 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>How to test</h1>
+      <p>
+        Use a screen reader to read the content of the following &lt;ul&gt;/&lt;li&gt;. It should narrate the link "a
+        Wikipedia article, link" (or something similar). It should NOT narrate "a Wikipedia article, message".
+      </p>
+      <ul aria-roledescription="transcript">
+        <li>
+          <div aria-roledescription="activity">
+            <div aria-roledescription="message">
+              <p>
+                This article based on{' '}
+                <a href="https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland">a Wikipedia article</a>.
+              </p>
+            </div>
+          </div>
+        </li>
+      </ul>
     </div>
   );
 }
