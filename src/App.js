@@ -13,10 +13,23 @@ function App() {
       <p>VoiceOver (macOS) with up/down arrow: "Bullet, this article is based on, link, a Wikipedia article."</p>
       <p>VoiceOver (iPadOS) with two-finger swipe: "This article based on a Wikpiedia article, link."</p>
       <h1>Try these out</h1>
-      <p>Bullet, this article is based on, link, a Wikipedia article.</p>
-      <p><small>bullet</small> this article is based on <small>link</small> a wikipedia article.</p>
-      <p><ins>bullet</ins> this article is based on <ins>link</ins> a wikipedia article.</p>
-      <p><br />bullet<br /> this article is based on <br />link<br /> a wikipedia article.</p>
+      <p className="app__try-out">Bullet, this article is based on, link, a Wikipedia article.</p>
+      <p className="app__try-out">
+        <small>bullet</small> this article is based on <small>link</small> a wikipedia article.
+      </p>
+      <p className="app__try-out">
+        <ins>bullet</ins> this article is based on <ins>link</ins> a wikipedia article.
+      </p>
+      <p className="app__try-out">
+        <br />
+        bullet
+        <br /> this article is based on <br />
+        link
+        <br /> a wikipedia article.
+      </p>
+      <p className="app__try-out">
+        <p>bullet</p> this article is based on <p>link</p> a wikipedia article.
+      </p>
       <h1>Sample</h1>
       <ul aria-roledescription="transcript">
         <li>
