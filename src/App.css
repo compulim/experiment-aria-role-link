@@ -1,3 +1,7 @@
 .app__try-out br {
   display: none;
 }
+
+.app__try-out p {
+  display: inline;
+}
