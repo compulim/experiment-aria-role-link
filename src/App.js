@@ -5,8 +5,9 @@ function App() {
     <div className="App">
       <h1>How to test</h1>
       <p>
-        Use a screen reader to read the content of the following &lt;ul&gt;/&lt;li&gt;. It should narrate the link "a
-        Wikipedia article, link" (or something similar). It should NOT narrate "a Wikipedia article, message".
+        Use a screen reader to read the content of the following <code>&lt;ul&gt;</code>/<code>&lt;li&gt;</code>. It
+        should narrate the link "a Wikipedia article, link" (or something similar). It should NOT narrate "a Wikipedia
+        article, message".
       </p>
       <ul aria-roledescription="transcript">
         <li>
