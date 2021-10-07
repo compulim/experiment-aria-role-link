@@ -7,14 +7,14 @@ import useUniqueId from './hook/useUniqueId';
 const LIST_ITEMS = {
   'id-0': 'Hello, World!',
   'id-1': 'Aloha!',
-  'id-2': <span lang="ja-JP">こんにちは！</span>,
-  'id-3': <span lang="yue">您好！</span>,
+  'id-2': <p lang="ja-JP">こんにちは！</p>,
+  'id-3': <p lang="yue">您好！</p>,
   'id-4': (
-    <span>
+    <p>
       This article is based on{' '}
       <a href="https://en.wikipedia.org/wiki/Alice%27s_Adventures_in_Wonderland">a Wikipedia article</a>. Follow the
       link to read more.
-    </span>
+    </p>
   )
 };
 
