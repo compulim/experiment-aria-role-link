@@ -1,0 +1,7 @@
+.link-narration__try-out br {
+  display: none;
+}
+
+.link-narration__try-out div {
+  display: inline;
+}
