@@ -1,0 +1,15 @@
+.active-descendant-list {
+  border: solid 2px transparent;
+}
+
+.active-descendant-list:focus {
+  border-color: black;
+}
+
+.active-descendant-list__item {
+  border: dashed 2px transparent;
+}
+
+.active-descendant-list:focus .active-descendant-list__item--active {
+  border-color: black;
+}
